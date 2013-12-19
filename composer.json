@@ -1,0 +1,10 @@
+{
+  "require": {
+    "league/plates": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src"
+    }
+  }
+}

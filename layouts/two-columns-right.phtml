@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+  <?php $this->insert( 'partials::head' ) ?>
+
+<body class="two column right">
+
+  <?= $this->child(); ?>
+
+  <aside>
+    <?php $this->insert( 'partials::sidebar' ); ?>
+  </aside>
+
+  <?php $this->insert( 'partials::footer' ); ?>
+
+</body>
+
+</html>
